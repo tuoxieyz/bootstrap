@@ -13,6 +13,10 @@
     --#{$prefix}gray-#{$color}: #{$value};
   }
 
+  @each $color, $value in $cyans {
+    --#{$prefix}#{$color}: #{$value};
+  }
+
   @each $color, $value in $theme-colors {
     --#{$prefix}#{$color}: #{$value};
   }
