@@ -17,6 +17,10 @@
     --#{$prefix}#{$color}: #{$value};
   }
 
+  @each $color, $value in $reds {
+    --#{$prefix}#{$color}: #{$value};
+  }
+
   @each $color, $value in $theme-colors {
     --#{$prefix}#{$color}: #{$value};
   }
